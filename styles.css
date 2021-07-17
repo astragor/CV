@@ -1,8 +1,34 @@
-body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 1024px;
+  margin-left : auto;
+  margin-right: auto;
+}
 
 h1, h2, strong{color :#3498db;}
 
-.flottant{
+h1{
+  font-size: 70px;
+  margin-top: 55px;
+  margin-bottom: 90px;
+}
+
+header{
+  background-image: url("images/fond_header.jpg");
+  height: 300px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 20px ;
+  background-position: bottom;
+}
+
+header img{
   border-radius : 50%;
-  float: right;
+  border: white solid 4px;
+  float : right;
+  margin-top : 50px
+}
+
+header p{
+  color : yellow;
+  font-size: 40px;
 }
