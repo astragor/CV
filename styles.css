@@ -1,17 +1,22 @@
 body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
   width: 1024px;
   margin-left : auto;
   margin-right: auto;
+  background-color : #3498db;
 }
 
 h1, h2, strong{color :#3498db;}
+
+section, header{border-radius: 20px;}
 
 h1{
   font-size: 70px;
   margin-top: 55px;
   margin-bottom: 90px;
 }
+
+h2{margin-top : 0px}
 
 header{
   background-image: url("images/fond_header.jpg");
@@ -32,3 +37,11 @@ header p{
   color : yellow;
   font-size: 40px;
 }
+
+section{
+  background-color : whitesmoke;
+  padding : 10px;
+  margin-top : 10px;
+}
+
+ul.liste-icone {list-style-type: none;}
