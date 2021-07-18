@@ -16,7 +16,8 @@ h1{
   margin-bottom: 90px;
 }
 
-h2{margin-top : 0px}
+p, h2, ul{margin-top : 0px;
+margin-bottom : 6px;}
 
 header{
   background-image: url("images/fond_header.jpg");
@@ -44,4 +45,15 @@ section{
   margin-top : 10px;
 }
 
-ul.liste-icone {list-style-type: none;}
+.contact {
+  width : 300px;
+  float : right;
+}
+
+.contact li{margin-bottom: 8px;}
+
+.s1{width : 676px;}
+
+.col1{width : 110px;}
+
+td{vertical-align: top;}
